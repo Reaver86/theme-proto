@@ -1,0 +1,46 @@
+:host {
+  display: flex;
+  flex-direction: column;
+  width: 600px;
+  margin: 1.5em auto;
+  padding: 2em;
+  box-shadow: 0 0 6px rgba(102, 102, 102, 0.34);
+}
+
+h1 {
+  margin: 0 0 1.2em 0;
+  font-size: 1.7rem;
+  font-weight: normal;
+}
+
+input {
+  display: block;
+  width: 100%;
+  padding: .375rem .75rem;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: .25rem;
+  margin: 0.7em 0 1.5em 0;
+}
+
+button {
+  align-self: flex-end;
+
+  padding: .5rem 1rem;
+  border: none;
+  font-size: 1rem;
+  line-height: 1.5;
+  border-radius: 3rem;
+  color: #fff;
+  background-color: #407d71;
+  cursor: pointer;
+  outline: none;
+
+  &:hover {
+    background-color: #73B4A7;
+  }
+}
